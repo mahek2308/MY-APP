@@ -25,7 +25,7 @@ export default function user7() {
 
       <div className="h-screen pt-10 ">
         <div>
-          <div className="border-2 grid grid-cols-2 col border-black">
+          <div className="border-2 grid grid-cols-2 col border-slate-900">
             <img src="/balaji.png"></img>
             <div className="text-left text-xl">
               {" "}
@@ -38,7 +38,10 @@ export default function user7() {
 
       <div className="w-full">
         <button className="bg-violet-700 w-full  h-20 text-white text-center ">
+          
+          <Link href={"/user3"}>
           ADD TO CART
+          </Link>
         </button>
       </div>
     </div>

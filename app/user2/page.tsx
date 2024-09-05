@@ -37,7 +37,7 @@ export default function user2() {
         </button>
       </div>
       <div className="bg-white text-4xl text-bold text-center mb-24">
-        Sign Up
+        Sign In
       </div>
 
       <div className="p-4 flex flex-col gap-4 mb-24">
@@ -63,7 +63,7 @@ export default function user2() {
 
         <button className="w-full text-[#fff] font-bold text-2xl bg-violet-700 p-5 ">
           <Link href={"/user3"}>
-          Sign in
+          Sign In
           </Link> 
           
         </button>

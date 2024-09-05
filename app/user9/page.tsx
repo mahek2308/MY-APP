@@ -20,13 +20,13 @@ export default function user9() {
       </div>
       <div className="w-full ">
         <div>
-          <button className="bg-slate-300 text-bold text-xl rounded ml-12 mt-14 w-80 h-12">
+          <button className="bg-purple-400   text-bold text-xl rounded ml-12 mt-14 w-80 h-12">
             <Link href={"/order"}>Go to Orders</Link>
           </button>
         </div>
         <div>
           <button className="bg-purple-700 w-full h-20 text-white text-2xl mt-2 ">
-            <Link href={"/user3"}>continue shopping</Link>
+            <Link href={"/user3"}>Continue shopping</Link>
           </button>
         </div>
       </div>

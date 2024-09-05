@@ -38,7 +38,7 @@ export default function User3() {
           </div>
         </div>
         <div>
-          <button className="border-2 rounded-lg h-10 w-20 mr-2 mt-5">
+          <button className="border-2 border-black  rounded-lg h-10 w-20 mr-2 mt-5">
             <Link href={"/profile"}>
               <PersonIcon />
             </Link>
@@ -58,13 +58,13 @@ export default function User3() {
       </div>
       <div>
         <div className="p-3 mt-2 text-bold text-black text-2xl ml-2">
-          <p>category</p>
+          <h1>Category</h1>
         </div>
         {defaultCategories.map((value) => {
           return (
             <button
               key={value.id}
-              className=" p-2 ml-5  text-bold text-xl text-center bg-slate-50 w-22 border-2 border-radius-lg "
+              className=" p-2 ml-5  text-bold text-xl text-center bg-inherit border-black  w-22 border-2 border-radius-lg "
               onClick={() => getProductById(value.id)}
             >
               {value.name}

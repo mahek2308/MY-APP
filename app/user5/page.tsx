@@ -41,7 +41,7 @@ export default function user5() {
           return (
             <button key={product.productname}>
               <Link href={"/user10"}>
-                <img className="flex border-2" src={product.url} />
+                <img className="flex border-2  border-slate-900" src={product.url} />
                 <div>{product.productname}</div>
                 <div>{product.productprice}</div>
               </Link>

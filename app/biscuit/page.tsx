@@ -38,7 +38,9 @@ export default function biscuit() {
 
       <div className="w-full">
         <button className="bg-violet-700 w-full  h-20 text-white text-center ">
+          <Link href={"/user3"}>
           ADD TO CART
+          </Link>
         </button>
       </div>
     </div>

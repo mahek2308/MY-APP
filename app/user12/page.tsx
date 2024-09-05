@@ -28,8 +28,8 @@ export default function User12() {
       </div>
       <div className="text-center text-2xl ">Cart</div>
       <div>
-        <div className="">
-          <div className="border-4  ml-2 mr-2 grid grid-cols-2 p-2 ">
+        <div>
+          <div className="border-2 border-slate-900 ml-2 mr-2 grid grid-cols-2 p-2 ">
             <img src="/balaji.png"></img>
             <div className="text-2xl ">
               {" "}
@@ -50,7 +50,7 @@ export default function User12() {
              </div>
           </div>
 
-          <div className="border-4  ml-2 mr-2 grid grid-cols-2 row-span-2 ">
+          <div className="border-2 border-slate-900  ml-2 mr-2 grid grid-cols-2 row-span-2 ">
             <img src="/thumsup.png"></img>
             <div className="text-2xl">
               {" "}
@@ -59,7 +59,7 @@ export default function User12() {
             </div>
           </div>
           <div>
-            <div className="border-2 grid grid-cols-2 col ml-2 mr-2 ">
+            <div className="border-2  border-slate-900 grid grid-cols-2 col ml-2 mr-2 ">
               <img src="/oreoo.png"></img>
               <div className="text-left text-2xl">
                 {" "}

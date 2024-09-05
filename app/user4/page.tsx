@@ -52,7 +52,7 @@ export default function user4() {
             <div className="flex grid grid-cols-1 p-2" key={product.productname}>
               <button>
                 <Link href={"/user7"}>
-                  <img className="flex border-2" src={product.url} />
+                  <img className="flex border-2 border-slate-900 " src={product.url} />
                   <div>{product.productname}</div>
                   <div>{product.productprice}</div>
                 </Link>
